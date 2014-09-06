@@ -1,0 +1,9 @@
+c:\users\mfatica\documents\visual studio 2013\Projects\RegexFractals\RegexFractals\bin\Debug\RegexFractals.exe.config
+c:\users\mfatica\documents\visual studio 2013\Projects\RegexFractals\RegexFractals\bin\Debug\RegexFractals.exe
+c:\users\mfatica\documents\visual studio 2013\Projects\RegexFractals\RegexFractals\bin\Debug\RegexFractals.pdb
+c:\users\mfatica\documents\visual studio 2013\Projects\RegexFractals\RegexFractals\obj\Debug\RegexFractals.csprojResolveAssemblyReference.cache
+c:\users\mfatica\documents\visual studio 2013\Projects\RegexFractals\RegexFractals\obj\Debug\RegexFractals.RegexFractalGenForm.resources
+c:\users\mfatica\documents\visual studio 2013\Projects\RegexFractals\RegexFractals\obj\Debug\RegexFractals.Properties.Resources.resources
+c:\users\mfatica\documents\visual studio 2013\Projects\RegexFractals\RegexFractals\obj\Debug\RegexFractals.csproj.GenerateResource.Cache
+c:\users\mfatica\documents\visual studio 2013\Projects\RegexFractals\RegexFractals\obj\Debug\RegexFractals.exe
+c:\users\mfatica\documents\visual studio 2013\Projects\RegexFractals\RegexFractals\obj\Debug\RegexFractals.pdb
