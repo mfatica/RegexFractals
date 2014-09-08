@@ -1,5 +1,6 @@
 ﻿using System.Drawing;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 
 namespace RegexFractals
 {
@@ -17,27 +18,27 @@ namespace RegexFractals
             _size = size;
             _ex = ex;
 
-            _regex = new Regex(_ex);
+            _regex = new Regex(_ex, RegexOptions.Compiled);
             _color = color;
         }
 
-        public Image Image
+        public async Task<Image> Generate()
         {
-            get
-            {
-                if (_image == null)
-                {
-                    _image = new Bitmap(_size, _size);
-                    draw("", 0, _size - 1, 0, _size - 1);
-                }
+               if (_image == null)
+               {
+               _image = new Bitmap(_size, _size);
+               await DrawAsync("", 0, _size - 1, 0, _size - 1);
+               }
 
-                return _image;
-            }
-
-            private set { }
+               return _image;
         }
 
-        private void draw(string pixel, int xmin, int xmax, int ymin, int ymax)
+        private async Task DrawAsync(string pixel, int xmin, int xmax, int ymin, int ymax)
+        {
+             await draw(pixel, xmin, xmax, ymin, ymax);
+        }
+
+        private async Task draw(string pixel, int xmin, int xmax, int ymin, int ymax)
         {
             int xmid = (xmin + xmax) / 2;
             int ymid = (ymin + ymax) / 2;
@@ -56,10 +57,10 @@ namespace RegexFractals
             }
             else
             {
-                draw(pixel + "1", xmid + 1, xmax, ymid + 1, ymax);
-                draw(pixel + "2", xmin, xmid, ymid + 1, ymax);
-                draw(pixel + "3", xmin, xmid, ymin, ymid);
-                draw(pixel + "4", xmid + 1, xmax, ymin, ymid);
+                await draw(pixel + "1", xmid + 1, xmax, ymid + 1, ymax);
+                await draw(pixel + "2", xmin, xmid, ymid + 1, ymax);
+                await draw(pixel + "3", xmin, xmid, ymin, ymid);
+                await draw(pixel + "4", xmid + 1, xmax, ymin, ymid);
             }
         }
 
