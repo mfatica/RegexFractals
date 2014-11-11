@@ -16,3 +16,12 @@ C:\Users\marco\Documents\GitHub\RegexFractals\RegexFractals\obj\Debug\RegexFract
 C:\Users\marco\Documents\GitHub\RegexFractals\RegexFractals\obj\Debug\RegexFractals.RegexFractalGenForm.resources
 C:\Users\marco\Documents\GitHub\RegexFractals\RegexFractals\obj\Debug\RegexFractals.Properties.Resources.resources
 C:\Users\marco\Documents\GitHub\RegexFractals\RegexFractals\obj\Debug\RegexFractals.csproj.GenerateResource.Cache
+C:\Users\mfatica\Documents\GitHub\RegexFractals\RegexFractals\bin\Debug\RegexFractals.exe.config
+C:\Users\mfatica\Documents\GitHub\RegexFractals\RegexFractals\obj\Debug\RegexFractals.exe
+C:\Users\mfatica\Documents\GitHub\RegexFractals\RegexFractals\obj\Debug\RegexFractals.pdb
+C:\Users\mfatica\Documents\GitHub\RegexFractals\RegexFractals\bin\Debug\RegexFractals.exe
+C:\Users\mfatica\Documents\GitHub\RegexFractals\RegexFractals\bin\Debug\RegexFractals.pdb
+C:\Users\mfatica\Documents\GitHub\RegexFractals\RegexFractals\obj\Debug\RegexFractals.csprojResolveAssemblyReference.cache
+C:\Users\mfatica\Documents\GitHub\RegexFractals\RegexFractals\obj\Debug\RegexFractals.RegexFractalGenForm.resources
+C:\Users\mfatica\Documents\GitHub\RegexFractals\RegexFractals\obj\Debug\RegexFractals.Properties.Resources.resources
+C:\Users\mfatica\Documents\GitHub\RegexFractals\RegexFractals\obj\Debug\RegexFractals.csproj.GenerateResource.Cache

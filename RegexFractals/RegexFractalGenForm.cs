@@ -26,12 +26,12 @@ namespace RegexFractals
                 FractalColor.BackColor = ColorPicker.Color;
         }
 
-        private void btnGenerate_Click(object sender, EventArgs e)
+        private async void btnGenerate_Click(object sender, EventArgs e)
         {
-            MandelbrotFractal mbrot = new MandelbrotFractal(0.001f, 3, 256, 512);
+            RegexFractal rfract = new RegexFractal(FractalRegex.Text, int.Parse(FractalSize.Text), FractalColor.BackColor);
             GenerateFractal.Text = "Processing. . .";
             GenerateFractal.Enabled = false;
-            ImageDisplayBox.Image = mbrot.Image;
+            ImageDisplayBox.Image = await rfract.Generate();
             GenerateFractal.Enabled = true;
             GenerateFractal.Text = "Generate";
         }
